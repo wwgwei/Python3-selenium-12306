@@ -1,1 +1,1 @@
-# Python3-selenium-12306-
+# Python3+selenium实现简易的12306抢票脚本
