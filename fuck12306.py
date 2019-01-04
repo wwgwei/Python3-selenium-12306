@@ -54,10 +54,10 @@ drive.find_element_by_xpath(xpath="/html/body/div[31]/div[2]/ul/li[2]/a").click(
 # 输入账号密码
 # 输入账号
 drive.find_element_by_xpath(xpath="//*[@id='J-userName']").click()
-drive.find_element_by_xpath(xpath="//*[@id='J-userName']").send_keys(u'17673913186')
+drive.find_element_by_xpath(xpath="//*[@id='J-userName']").send_keys(u'1234567')
 # 输入密码
 drive.find_element_by_xpath(xpath="//*[@id='J-password']").click()
-drive.find_element_by_xpath(xpath="//*[@id='J-password']").send_keys(u'lw5201314')
+drive.find_element_by_xpath(xpath="//*[@id='J-password']").send_keys(u'012345')
 
 # 等待20S后点击登录，请手动点击验证码
 time.sleep(20)
